@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+
+#nav-bar{
+	
+	position: sticky; /* (relative) align logo and name to the top of the screen*/
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img{
+	height: 40px;		/*make the image size smaller and attach it to the right*/
+	padding-left: 30px;
+}
+.navbar-nav li{
+	padding: 0 10px;   /* add navigation bar for the listed items */
+}
+
+#nav-bar ul li a:hover{
+	background-color: #999;
+	color: greenyellow!important;
+}
+.navbar{
+	background: white;
+}
+
+.nav-link{
+	color: #333!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+  .container{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px;
+    color: #333;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.logo-small{
+	color: greenyellow;
+	font-size: 50px;
+}
+
+.logo{
+	color: greenyellow;
+	font-size: 200px;
+}
+
+.container-fluid{
+	max-width: 100%;
+	padding: 70px 60px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/*--get in touch*/
+#contact{
+	background-color: #000;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+::placeholder{
+	color: #999 !important;
+}
+.follow{
+	background: #333;
+	padding: 10px;
+	margin: 15px;
+}
+.contact-info .fa{
+	margin: 10px; 
+	color: greenyellow;
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px){
+	.col-sm-4{
+		text-align: center;
+		margin: 25px 0;
+	}
+}
+
+
+@media (min-width: 768px){
+    .follow{
+        size: auto;
+        align-self: auto
+	}
+}
+
+.footer{
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    color: antiquewhite;
+}
